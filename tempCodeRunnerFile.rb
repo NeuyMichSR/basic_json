@@ -1,1 +1,1 @@
-.is_a? Numeric
+get_years_of_sem_on_sub

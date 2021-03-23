@@ -76,8 +76,8 @@ class Student
 		puts "********************************************* #{@name} *******************************************************\n"
 		@year_study.each_with_index do |year_study, index|
 			if year_study.is_a? Numeric
-        if year_study >= 5
-          	puts "\n...................... Your year Doesn't exist. .......................\n"
+        		if year_study >= 5
+          			puts "\n...................... Your year Doesn't exist. .......................\n"
 					break
 				end
 				puts "\n...................... Year #{year_study} , #{@time_study[index]} ......................."
